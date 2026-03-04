@@ -41,24 +41,6 @@
      <height>480</height>
     </size>
    </property>
-   <widget class="QLineEdit" name="line_edit_res">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>140</y>
-      <width>401</width>
-      <height>101</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Franklin Gothic</family>
-     </font>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
-    </property>
-   </widget>
    <widget class="QLabel" name="res_label">
     <property name="geometry">
      <rect>
@@ -174,6 +156,21 @@
     </item>
     <item>
      <property name="text">
+      <string>Spanish</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>French</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>German</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
       <string>Russian</string>
      </property>
     </item>
@@ -215,12 +212,27 @@
     </property>
     <item>
      <property name="text">
+      <string>Russian</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
       <string>English</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>Russian</string>
+      <string>Spanish</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>French</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>German</string>
      </property>
     </item>
    </widget>
@@ -242,6 +254,21 @@
      <string>Translate to</string>
     </property>
    </widget>
+   <widget class="QTextEdit" name="textEdit_res">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>140</y>
+      <width>401</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Franklin Gothic</family>
+     </font>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -258,3 +285,4 @@
  <resources/>
  <connections/>
 </ui>
+
