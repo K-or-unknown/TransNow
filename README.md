@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-   <img src="https://img.shields.io/badge/Version-v1.1-00c66c?style=flat-square&logo=github" alt="Version">
+   <img src="https://img.shields.io/badge/Version-v1.2-00c66c?style=flat-square&logo=github" alt="Version">
    <img src="https://img.shields.io/badge/License-GNU%20General%20Public%20License%20v3.0-00c66c?style=flat-square&logo=github" alt="License">
 </p>
 
@@ -31,5 +31,5 @@ https://drive.google.com/file/d/1IRHgSLJY7qI5aTOeMXNc2Z9SwH3XwYt-/view?usp=shari
 
 ***To exit the program, find the program icon in the system tray, right-click on it and click "Exit"!***
 <p align="center">
-   <img src="https://i.ibb.co/TBSztFVf/for-git.png" width="600">
+   <img src="https://i.ibb.co/gLJqwsWh/for-git-new.png" width="600">
 </p>
