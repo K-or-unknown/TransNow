@@ -25,6 +25,62 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">
+QMainWindow {
+    background-color: #1a1a1a;
+}
+
+
+QWidget {
+    font-family:  &quot;Roboto&quot;;
+    font-size: 11px;
+    color: #e0e0e0;
+}
+
+
+QTextEdit {
+    background-color: #262626;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 8px;
+    color: #ffffff;
+    selection-background-color: #24913C; 
+}
+
+
+QPushButton {
+    background-color: #24913C; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #1e7a32; 
+}
+
+QPushButton:pressed {
+    background-color: #165e26; 
+}
+
+
+QLabel#res_label {
+    color: white;
+	 font-family:  &quot;Verdana&quot;;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+QLabel#label_info {
+    color: #888;
+    font-size: 9px;
+}</string>
+  </property>
   <property name="locale">
    <locale language="English" country="UnitedStates"/>
   </property>
@@ -52,8 +108,9 @@
     </property>
     <property name="font">
      <font>
-      <family>Franklin Gothic</family>
-      <pointsize>24</pointsize>
+      <family>Verdana</family>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
@@ -66,10 +123,10 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>160</x>
       <y>270</y>
       <width>321</width>
-      <height>26</height>
+      <height>27</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -77,7 +134,8 @@
       <widget class="QLineEdit" name="lineEdit_bind_trans">
        <property name="font">
         <font>
-         <family>Franklin Gothic</family>
+         <family>Roboto</family>
+         <pointsize>-1</pointsize>
         </font>
        </property>
        <property name="alignment">
@@ -89,7 +147,8 @@
       <widget class="QLabel" name="label_bind_trans">
        <property name="font">
         <font>
-         <family>Franklin Gothic</family>
+         <family>Roboto</family>
+         <pointsize>-1</pointsize>
         </font>
        </property>
        <property name="text">
@@ -102,10 +161,10 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>240</x>
+      <x>230</x>
       <y>310</y>
-      <width>172</width>
-      <height>26</height>
+      <width>201</width>
+      <height>35</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
@@ -113,7 +172,9 @@
       <widget class="QPushButton" name="pushButton_apply">
        <property name="font">
         <font>
-         <family>Franklin Gothic</family>
+         <family>Roboto</family>
+         <pointsize>-1</pointsize>
+         <bold>true</bold>
         </font>
        </property>
        <property name="text">
@@ -125,7 +186,9 @@
       <widget class="QPushButton" name="pushButton">
        <property name="font">
         <font>
-         <family>Franklin Gothic</family>
+         <family>Roboto</family>
+         <pointsize>-1</pointsize>
+         <bold>true</bold>
         </font>
        </property>
        <property name="text">
@@ -146,7 +209,8 @@
     </property>
     <property name="font">
      <font>
-      <family>Franklin Gothic</family>
+      <family>Roboto</family>
+      <pointsize>-1</pointsize>
      </font>
     </property>
     <item>
@@ -186,7 +250,8 @@
     </property>
     <property name="font">
      <font>
-      <family>Franklin Gothic</family>
+      <family>Roboto</family>
+      <pointsize>-1</pointsize>
      </font>
     </property>
     <property name="locale">
@@ -207,7 +272,8 @@
     </property>
     <property name="font">
      <font>
-      <family>Franklin Gothic</family>
+      <family>Roboto</family>
+      <pointsize>-1</pointsize>
      </font>
     </property>
     <item>
@@ -247,7 +313,8 @@
     </property>
     <property name="font">
      <font>
-      <family>Franklin Gothic</family>
+      <family>Roboto</family>
+      <pointsize>-1</pointsize>
      </font>
     </property>
     <property name="text">
@@ -265,7 +332,8 @@
     </property>
     <property name="font">
      <font>
-      <family>Franklin Gothic</family>
+      <family>Roboto</family>
+      <pointsize>-1</pointsize>
      </font>
     </property>
    </widget>
@@ -276,7 +344,7 @@
      <x>0</x>
      <y>0</y>
      <width>640</width>
-     <height>21</height>
+     <height>18</height>
     </rect>
    </property>
   </widget>
