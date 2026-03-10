@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-   <img src="https://img.shields.io/badge/Version-v1.2-00c66c?style=flat-square&logo=github" alt="Version">
+   <img src="https://img.shields.io/badge/Version-v1.3-00c66c?style=flat-square&logo=github" alt="Version">
    <img src="https://img.shields.io/badge/License-GNU%20General%20Public%20License%20v3.0-00c66c?style=flat-square&logo=github" alt="License">
 </p>
 
