@@ -198,129 +198,6 @@ QLabel#label_info {
      </item>
     </layout>
    </widget>
-   <widget class="QComboBox" name="comboBox_from">
-    <property name="geometry">
-     <rect>
-      <x>21</x>
-      <y>163</y>
-      <width>71</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Roboto</family>
-      <pointsize>-1</pointsize>
-     </font>
-    </property>
-    <item>
-     <property name="text">
-      <string>English</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Spanish</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>French</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>German</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Russian</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QLabel" name="label_from">
-    <property name="geometry">
-     <rect>
-      <x>21</x>
-      <y>141</y>
-      <width>76</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Roboto</family>
-      <pointsize>-1</pointsize>
-     </font>
-    </property>
-    <property name="locale">
-     <locale language="English" country="UnitedStates"/>
-    </property>
-    <property name="text">
-     <string>Translate from</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_to">
-    <property name="geometry">
-     <rect>
-      <x>21</x>
-      <y>223</y>
-      <width>71</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Roboto</family>
-      <pointsize>-1</pointsize>
-     </font>
-    </property>
-    <item>
-     <property name="text">
-      <string>Russian</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>English</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Spanish</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>French</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>German</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QLabel" name="label_to">
-    <property name="geometry">
-     <rect>
-      <x>21</x>
-      <y>201</y>
-      <width>61</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Roboto</family>
-      <pointsize>-1</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Translate to</string>
-    </property>
-   </widget>
    <widget class="QTextEdit" name="textEdit_res">
     <property name="geometry">
      <rect>
@@ -336,6 +213,357 @@ QLabel#label_info {
       <pointsize>-1</pointsize>
      </font>
     </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>136</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_from">
+       <property name="font">
+        <font>
+         <family>Roboto</family>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="locale">
+        <locale language="English" country="UnitedStates"/>
+       </property>
+       <property name="text">
+        <string>Translate from</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_from">
+       <property name="font">
+        <font>
+         <family>Roboto</family>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>English</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Russian</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Arabic</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bulgarian</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Catalan</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Chinese (Simplified)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Chinese (Traditional)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Czech</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Danish</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Finnish</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>French</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Georgian</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>German</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hebrew</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hungarian</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Italian</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Japanese</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Korean</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Latvian</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dutch</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Norwegian (Nynorsk)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Persian</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Polish</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Portuguese (Brazil)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Slovak</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Spanish</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Swedish</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Turkish</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ukrainian</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_to">
+       <property name="font">
+        <font>
+         <family>Roboto</family>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Translate to</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_to">
+       <property name="font">
+        <font>
+         <family>Roboto</family>
+         <pointsize>-1</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>Russian</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>English</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Arabic</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bulgarian</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Catalan</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Chinese (Simplified)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Chinese (Traditional)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Czech</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Danish</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Finnish</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>French</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Georgian</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>German</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hebrew</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hungarian</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Italian</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Japanese</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Korean</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Latvian</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dutch</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Norwegian (Nynorsk)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Persian</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Polish</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Portuguese (Brazil)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Slovak</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Spanish</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Swedish</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Turkish</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ukrainian</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -353,4 +581,6 @@ QLabel#label_info {
  <resources/>
  <connections/>
 </ui>
+
+
 
